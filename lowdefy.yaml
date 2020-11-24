@@ -1,0 +1,20 @@
+version: null
+
+menus:
+  - id: default
+    links:
+      - id: examples
+        type: MenuLink
+        url: https://lowdefy.com/examples
+        properties:
+          title: Examples
+          icon: AppstoreOutlined
+      - id: docs
+        type: MenuLink
+        url: https://docs.lowdefy.com
+        properties:
+          title: Docs
+          icon: ReadOutlined
+
+pages:
+  - _ref: pages/welcome.yaml
