@@ -1,6 +1,7 @@
 
 lowdefy: 3.16.5
 name: Lowdefy starter
+licence: MIT
 
 pages:
   - id: welcome

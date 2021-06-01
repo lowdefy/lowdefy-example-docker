@@ -1,1 +1,1 @@
-# Lowdefy Project Template
+# Lowdefy Example Docker
