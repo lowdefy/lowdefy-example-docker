@@ -1,7 +1,4 @@
 **/node_modules
-.lowdefy/build
-.lowdefy/.cache
-.lowdefy/serverless-aws/.serverless
-.lowdefy/serverless-aws/build
+.lowdefy/**
 .DS_Store
 .env
