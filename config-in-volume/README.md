@@ -14,5 +14,5 @@ docker run \
 ```
 
 ```
-docker cp ./.lowdefy/build lowdefy:/home/node/lowdefy/volumes/build
+docker cp ./.lowdefy/build lowdefy:/home/node/lowdefy/volumes
 ```
