@@ -18,7 +18,7 @@ docker cp ./.lowdefy/build lowdefy:/home/node/lowdefy
 docker cp ./public lowdefy:/home/node/lowdefy
 ```
 
-It the volumes are not mounted at the default build and public directories, the build and public directories can be specified using the `LOWDEFY_SERVER_BUILD_DIRECTORY` and `LOWDEFY_SERVER_PUBLIC_DIRECTORY` environment variables.
+If the volumes are not mounted at the default build and public directories, the build and public directories can be specified using the `LOWDEFY_SERVER_BUILD_DIRECTORY` and `LOWDEFY_SERVER_PUBLIC_DIRECTORY` environment variables.
 
 ```
 docker run \
