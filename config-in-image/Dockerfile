@@ -3,6 +3,8 @@ FROM node:14-buster AS build
 # Set working directory and node user
 WORKDIR /home/node/lowdefy
 
+RUN chown node:node /home/node/lowdefy
+
 USER node
 
 # Copy app config, and change ownership of files to "node" user
