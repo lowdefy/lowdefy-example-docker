@@ -1,5 +1,4 @@
-
-lowdefy: 3.17.2
+lowdefy: 3.21.2
 name: Lowdefy starter
 licence: MIT
 
@@ -49,4 +48,3 @@ pages:
               type: secondary
               content: |
                 Made by a Lowdefy 🤖
-

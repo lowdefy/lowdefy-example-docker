@@ -6,7 +6,7 @@ docker run \
   --name lowdefy \
   --mount type=volume,source=lowdefy-build,destination=/home/node/lowdefy/build \
   --mount type=volume,source=lowdefy-public,destination=/home/node/lowdefy/public \
-  lowdefy/lowdefy:3.17.2
+  lowdefy/lowdefy:3.21.2
 ```
 
 ```
@@ -28,7 +28,7 @@ docker run \
   --mount type=volume,source=lowdefy-public,destination=/data/lowdefy/public \
   -e LOWDEFY_SERVER_BUILD_DIRECTORY=/data/lowdefy/build \
   -e LOWDEFY_SERVER_PUBLIC_DIRECTORY=/data/lowdefy/public \
-  lowdefy/lowdefy:3.17.2
+  lowdefy/lowdefy:3.21.2
 ```
 
 ```
