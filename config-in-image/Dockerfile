@@ -14,7 +14,7 @@ COPY  --chown=node:node  . .
 RUN npx lowdefy@latest build
 
 # Use the correct Lowdefy base image
-FROM lowdefy/lowdefy:3.21.2
+FROM lowdefy/lowdefy:3.23.3
 
 # Copy build output from build stage
 COPY --from=build --chown=node:node /home/node/lowdefy/.lowdefy/build ./build
